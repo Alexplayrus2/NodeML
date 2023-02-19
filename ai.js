@@ -9,7 +9,7 @@ module.exports.getalldata = async function getalldata()
 }
 module.exports.teach = async function teach(sentance, response)
   {
-    brain.add(sentance, sentance)
+    brain.set(sentance, sentance)
     if (response)
     {
       brain.set(sentance.toLowerCase() + "!response", response)
