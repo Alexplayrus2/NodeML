@@ -1,7 +1,7 @@
 ## Note: Teaching the ai atleast with a one sentance is required.
 # API
 ## Functions:
-### teach(sentance ***REQUIRED***, response ***OPTIONAL*** - Puts a sentance and a response into the AI's database
+### teach(sentance ***REQUIRED***, response ***OPTIONAL***) - Puts a sentance and a response into the AI's database
 ### getalldata() - Gets everything in the AI's database
 ### generateresponse(sentance ***REQUIRED***) - Returns a response based off the "sentance" argument
 ## Basic Usage/Examples
